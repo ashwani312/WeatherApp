@@ -90,3 +90,37 @@
 .details {
     transition: 0.3s all;
 }
+@media only screen and (max-width: 400px) {
+    .weatherBox {
+        padding: 30px 5px;
+        border: 3px solid rgb(0, 0, 0);
+        border-radius: 40px;
+    }
+    .weatherImg>img {
+        height: 130px;
+    }
+    .weatherBox input {
+        border: none;
+        outline: none;
+        padding: 10px 10px;
+        border-radius: 30px;
+        margin-right: 5px;
+        font-size: 13px;
+    }
+    
+    .weatherBox button {
+        cursor: pointer;
+        border: none;
+        padding: 9px 10px;
+        background-color: #ff594f;
+        color: white;
+        border-radius: 6px;
+    }
+    .info h2 {
+        font-size: 13px;
+    }
+    .infoImg {
+        height: 35px;
+        margin-right: 10px;
+    }
+  }
