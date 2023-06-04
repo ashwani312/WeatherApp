@@ -1,0 +1,14 @@
+/* *{ */
+    /* background: linear-gradient(135deg, #153677, #4e085f);
+} */
+.appContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    position: relative;
+}

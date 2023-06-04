@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+   position: sticky;
+}
+
+.weatherImg>img {
+    height: 160px;
+}
+
+.weatherBox {
+    padding: 30px 15px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 40px;
+}
+
+.weatherBox input {
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.weatherBox button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    background-color: #ff594f;
+    color: white;
+    border-radius: 6px;
+}
+
+.weatherTemp {
+    margin-bottom: 30px;
+    color: white;
+}
+
+.weatherTemp h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.weatherTemp h1 {
+    font-size: 3rem;
+}
+
+.weatherInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.info h2 {
+    font-size: 20px;
+}
+
+.info h3 {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.infoImg {
+    height: 40px;
+    margin-right: 10px;
+}
+/* .details {
+  display: none;
+} */
+.invalid{
+    margin-top: 10px;
+    color: #ff594f;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.3s all;
+}
+.details {
+    transition: 0.3s all;
+}
